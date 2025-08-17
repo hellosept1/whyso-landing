@@ -1,4 +1,7 @@
-// pages/index.js
-export default function Home() {
-  return <h1>Landing Page Test<h1>
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
 }
+
+module.exports = nextConfig
