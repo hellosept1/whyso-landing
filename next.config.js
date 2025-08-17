@@ -1,5 +1,4 @@
-module.exports = {
-  reactStrictMode: true,
-  // If deployed under a subpath, specify it
-  // basePath: '/subpath',
+// pages/index.js
+export default function Home() {
+  return <h1>Landing Page Test</h1>
 }
